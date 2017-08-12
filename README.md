@@ -1,5 +1,5 @@
 # ml-performance
-This repo contains code to measure performance of machine learning classifiers.
+This repo contains MATLAB code to measure performance of machine learning classifiers.
 
 **calibrate.m** - this is the main file to run.
 
