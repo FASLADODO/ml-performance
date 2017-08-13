@@ -47,6 +47,8 @@ Worked on MATLAB 2017a.
 ## References
 
 [1] Peng, Chao-Ying Joanne, Kuk Lida Lee, and Gary M. Ingersoll. "An introduction to logistic regression analysis and reporting." The journal of educational research 96.1 (2002): 3-14.
+
 [2] http://www.nyu.edu/projects/farbood/projects/stats.html
+
 [3] https://www.mathworks.com/matlabcentral/fileexchange/22441-curve-intersections?focused=5165138&tab=function
 
