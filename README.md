@@ -19,7 +19,7 @@ This repo contains MATLAB code to measure performance of machine learning classi
 ## Classification Metrics
 
 This file performs the following calculations for a binary prediction problem:
-- **AUC** (Area Under the Receiver Operating Curve)
+- **AUC** (Area Under the Receiver Operating Curve).
 - **OPT_ER**: Optimum Point on the ROC.
 - **EER** (Equal Error Rate): Operating point on ROC for equal True Positive Rate and False Positive Rate.
 - **Accuracy**: Correct classification, when the probability threshold is set to 0.5 for classification between binary classes
@@ -27,11 +27,11 @@ This file performs the following calculations for a binary prediction problem:
 - **FP** (False Positive): Number of observations in negative class wrongly predicted as positive.
 - **TN** (True Negative): Number of observations in negative class correctly predicted as negative.
 - **FN** (False Negative): Number of observations in negative class wrongly predicted as negative.
-- **FPR** (False Positive Rate): 
-- **TPR** (True Positive Rate)
-- **Recall**: 
-- **Precision**: 
-- **F1_score**: 
+- **FPR** (False Positive Rate): Out of all the negative observations, the percentage of which were wrongly predicted positive.
+- **TPR** (True Positive Rate) : Out of all the positive observations, the percentage of which were correctly predicted positive.
+- **Recall**   : (Same as True Positive Rate).
+- **Precision**: Out of all positive predictions, the the percentage of which were correctly predicted positive.
+- **F1_score** : The harmonic mean of Precision and Recall.
 - **TPR_when_FPR0p10** : True Positive Rate at 10% False Positive Rate.
 - **TPR_when_FPR0p05** : True Positive Rate at 5% False Positive Rate.
 - **TPR_when_FPR0** : True Positive Rate at 0% False Positive Rate.
