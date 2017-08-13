@@ -16,7 +16,7 @@ This repo contains MATLAB code to measure performance of machine learning classi
 
 **calibrate.m** calls **HosmerLemeshowTest.m** [1,2] and **InterX.m** [3].
 
-### Classification Metrics
+## Classification Metrics
 
 This file performs the following calculations for a binary prediction problem:
 - **AUC** (Area Under the Receiver Operating Curve)
@@ -44,7 +44,7 @@ This file performs the following calculations for a binary prediction problem:
 Worked on MATLAB 2017a.
 
 
-#### References
+## References
 
 [1] Peng, Chao-Ying Joanne, Kuk Lida Lee, and Gary M. Ingersoll. "An introduction to logistic regression analysis and reporting." The journal of educational research 96.1 (2002): 3-14.
 [2] http://www.nyu.edu/projects/farbood/projects/stats.html
