@@ -32,12 +32,12 @@ This file performs the following calculations for a binary prediction problem:
 - **Recall**: 
 - **Precision**: 
 - **F1_score**: 
-- **TPR_when_FPR0p10**
-- **TPR_when_FPR0p05**
-- **TPR_when_FPR0**
-- **FPR_when_TPR0p90**
-- **FPR_when_TPR0p95**
-- **FPR_when_TPR1p00**
+- **TPR_when_FPR0p10** : True Positive Rate at 10% False Positive Rate.
+- **TPR_when_FPR0p05** : True Positive Rate at 5% False Positive Rate.
+- **TPR_when_FPR0** : True Positive Rate at 0% False Positive Rate.
+- **FPR_when_TPR0p90** : False Positive Rate at 90% True Positive Rate.
+- **FPR_when_TPR0p95** : False Positive Rate at 95% True Positive Rate.
+- **FPR_when_TPR1p00** : False Positive Rate at 100% True Positive Rate.
 - **HL_test** (Hosmer-Lemeshow Test) : evaluates goodness-of-fit of model, i.e. if the model predicts 10% probability of a positive class for an observation, is the model correctly predicting the positive class 10% of the time? 
 
 
